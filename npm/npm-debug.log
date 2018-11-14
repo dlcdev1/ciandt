@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly idealTree:prePrune npm
+20 silly idealTree:prePrune └── @linclark/pkg@1.0.3
+21 silly loadIdealTree Finishing
+22 silly currentTree npm
+22 silly currentTree └── @linclark/pkg@1.0.3
+23 silly idealTree npm
+23 silly idealTree └── @linclark/pkg@1.0.3
+24 silly generateActionsToTake Starting
+25 silly install generateActionsToTake
+26 warn checkPermissions Missing write access to /home/davidlc/npm/node_modules/@linclark
+27 silly rollbackFailedOptional Starting
+28 silly rollbackFailedOptional Finishing
+29 silly runTopLevelLifecycles Starting
+30 silly runTopLevelLifecycles Finishing
+31 silly install printInstalled
+32 warn Failed to parse json
+32 warn Unexpected token '}' at 8:54
+32 warn   "repository": {"file:///home/davidlc/npm/README.md"},
+32 warn                                                      ^
+33 warn File: /home/davidlc/npm/package.json
+34 warn npm No description
+35 warn npm No repository field.
+36 warn npm No README data
+37 warn npm No license field.
+38 verbose stack Error: EACCES: permission denied, access '/home/davidlc/npm/node_modules/@linclark'
+39 verbose cwd /home/davidlc/npm
+40 error Linux 4.15.0-29-generic
+41 error argv "/usr/bin/node" "/usr/bin/npm" "i"
+42 error node v8.10.0
+43 error npm  v3.5.2
+44 error path /home/davidlc/npm/node_modules/@linclark
+45 error code EACCES
+46 error errno -13
+47 error syscall access
+48 error Error: EACCES: permission denied, access '/home/davidlc/npm/node_modules/@linclark'
+48 error  { Error: EACCES: permission denied, access '/home/davidlc/npm/node_modules/@linclark'
+48 error   errno: -13,
+48 error   code: 'EACCES',
+48 error   syscall: 'access',
+48 error   path: '/home/davidlc/npm/node_modules/@linclark' }
+49 error Please try running this command again as root/Administrator.
+50 verbose exit [ -13, true ]

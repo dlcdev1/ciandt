@@ -1,0 +1,14 @@
+{
+  "name": "dlcdev1",
+  "version": "1.0.0",
+  "description": "teste",
+  "main": "test.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {"file:///home/davidlc/npm/README.md"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
